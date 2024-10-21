@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Ries Lab 6</title>
+
+        <!--Bring in library-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+         <!--Call my javascript functions-->       
+        <script src="riesLab6.js" defer></script>
+
+        <!--Set map height, required by library-->
+        <style>
+            #map { 
+                height: 300px; 
+                margin-left: 12.5%;
+                margin-right: 12.5%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Map of US</h1>
+        <!--Create a div for the map-->
+        <div id="map"></div>
+
+    <!--Create div for all 3 marker labels and localities-->
+        <div id="marker1"></div>
+        <div id="locality1"></div>
+
+        <div id="marker2"></div>
+        <div id="locality2"></div>
+        
+        <div id="marker3"></div>
+        <div id="locality3"></div>
+    </body>
+</html>
